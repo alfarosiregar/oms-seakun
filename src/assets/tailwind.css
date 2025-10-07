@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 14px;
+  }
+  body {
+    @apply text-sm leading-6 text-gray-800 bg-gray-100;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif;
+  }
+}
+
+@layer components {
+  .app {
+    @apply min-h-screen flex flex-col;
+  }
+  .app-header {
+    @apply bg-white border-b border-gray-200 px-6 py-4;
+  }
+  .logo {
+    @apply text-lg font-semibold text-gray-800;
+  }
+  .app-main {
+    @apply flex-1 p-6 max-w-[1200px] w-full mx-auto;
+  }
+}
