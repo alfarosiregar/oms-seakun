@@ -4,9 +4,10 @@ import path from "node:path";
 
 export default defineConfig({
   plugins: [vue()],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
+  resolve: { alias: { "@": path.resolve(__dirname, "./src") } },
+  build: {
+    sourcemap: true,
+    cssCodeSplit: true,
+    assetsInlineLimit: 4096,
   },
 });
