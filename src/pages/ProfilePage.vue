@@ -105,7 +105,7 @@ const profile = reactive({
     "Fresh Graduate in Computer Science (UNIMED) Front-End Developer Enthusiast",
   tags: ["React/Next.js", "TypeScript", "Tailwind", "Cloud Computing"],
   bio: "Fresh Graduate Ilmu Komputer UNIMED. Berfokus pada pengembangan front-end modern menggunakan React, TypeScript, dan Tailwind, dengan keahlian integrasi API, optimasi performa, serta deployment di AWS.",
-  photoUrl: "/src/public/my-photo.png",
+  photoUrl: "/public/img/my-photo.png",
   cvUrl:
     "https://drive.google.com/uc?export=download&id=1Zlcuc7mh70THMSHPxQkN_KgDakGks1ew",
   email: "afdolfarosir19@gmail.com",
